@@ -11,6 +11,7 @@ public class VehicleProgram {
      
         Vehicle aCar = new Vehicle();
         Vehicle aVan = new Vehicle();
+        Vehicle aNewVehicle = new Vehicle("Car","Renault", 55.00F,4,"John Doe",7);
         
         aCar.model = "Nissan";
         aCar.type = "Qashqai";
@@ -37,6 +38,8 @@ public class VehicleProgram {
         aCar.drive();
         aCar.drive();
         aCar.displayDetails();
+        
+        aNewVehicle.displayDetails();
         
         
         
